@@ -1,0 +1,113 @@
+{
+  "names": {
+    "default": {
+      "roman": "Necro"
+    },
+    "japan": {
+      "roman": "Necro",
+      "original": "ネクロ"
+    }
+  },
+  "images": {
+    "face": "necro.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Attack",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Elbow",
+        "input": ":b:+[LP] {or} [MP]"
+      },
+      {
+        "name": "Necro Upper",
+        "input": ":b:+[HP]"
+      },
+      {
+        "name": "Elbow Cannon",
+        "input": ":db:+[HP]"
+      },
+      {
+        "name": "Knee Dagger",
+        "input": ":b:+[LK]"
+      },
+      {
+        "name": "Knee Attack",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Knee Missile",
+        "input": ":b:+[HK]"
+      },
+      {
+        "name": "Drill Kick",
+        "input": "{inAir}, :d:+[K]"
+      },
+      {
+        "name": "Target Combo",
+        "input": ":b:+[LK] > [MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Electric Blast",
+        "input": ":dp:+[P] ({tapPunch} {toExtend})"
+      },
+      {
+        "name": "Flying Viper",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Rising Cobra",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Tornado Hook",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Snake Fang",
+        "input": ":hcf:+[K]",
+        "extraInfo": "{backTurned}"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Magnetic Storm",
+        "input": ":qcf::qcf:+[P] ({tapPunch} {toExtend})"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Slam Dance",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Electric Snake",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "backTurned": "This move changes if it connects with a back-turned opponent"
+    },
+
+    "portuguese": {
+      "backTurned": "Este golpe muda caso acerte um adversário de costas"
+    }
+  }
+}
