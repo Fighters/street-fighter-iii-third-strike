@@ -15,7 +15,7 @@
     "{normalThrows}": [
       {
         "name": "Body Slam",
-        "input": "{close}, :b: {or} :f:+[LP]+[LK]"
+        "input": "[LP]+[LK]"
       }
     ],
     "{uniqueAttacks}": [
