@@ -1,0 +1,148 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dudley"
+    },
+    "japan": {
+      "roman": "Dudley",
+      "original": "ダッドリー"
+    }
+  },
+  "images": {
+    "face": "dudley.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kidney Crusher",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Dynamite Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Slipping Jab",
+        "input": ":f:+[LP]"
+      },
+      {
+        "name": "Stomach Blow",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Step Straight",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Kidney Blow",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Dart Shot",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{close}, [LP] > [MP] > [MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":f:+[LP] > [MP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": ":d:+[LK] > :d:+[MP] > :d:+[HP]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": ":d:+[LK] > [MK]"
+      },
+      {
+        "name": "Target Combo 5",
+        "input": "{close}, [MK] > [HK] > [HP]"
+      },
+      {
+        "name": "Target Combo 6",
+        "input": ":f:+[HK] > [MK]"
+      },
+      {
+        "name": "Target Combo 7",
+        "input": "{close}, [MP] > [MK] > [HP]"
+      },
+      {
+        "name": "Target Combo 8",
+        "input": "{close}, [LK] > [MK] > [MP] > [HP]"
+      },
+      {
+        "name": "Target Combo 9",
+        "input": ":f:+[MK] > [MK] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Jet Upper",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Machinegun Blow",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Duck",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Ducking Straight",
+        "input": "[P]",
+        "after": "Duck"
+      },
+      {
+        "name": "Ducking Upper",
+        "input": "[K]",
+        "after": "Duck"
+      },
+      {
+        "name": "Cross Counter",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Short Swing Blow",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Rocket Upper",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Rolling Thunder",
+        "input": ":qcf::qcf:+[P] ({tapPunch} {forMoreHits})",
+        "extraInfo": "{rollingThunderDistance}"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Corkscrew Blow",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "rollingThunderDistance": "{hold} :f:+[LP]+[MP]+[HP] {toControlDistance}"
+    },
+
+    "portuguese": {
+      "rollingThunderDistance": "{hold} :f:+[LP]+[MP]+[HP] {toControlDistance}"
+    }
+  }
+}
