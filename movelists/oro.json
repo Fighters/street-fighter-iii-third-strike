@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "Oro"
+    },
+    "japan": {
+      "roman": "Oro",
+      "original": "オロ"
+    }
+  },
+  "images": {
+    "face": "oro.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubi-Jime Kataguruma",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Kuchu Jigoku Guruma",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Nichirin Sho",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Oni Yanma",
+        "input": "{charge} :d: :u:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Jinchu Watari",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Nio Riki",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "Hitobashira Nobori",
+        "input": "{inAir}, :qcf:+[K] ({tapKick} {forMoreHits})",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Kishin Riki",
+        "input": ":qcf::qcf:+[P], {then}, {close}, {press} [P]"
+      },
+      {
+        "name": "Kishin Kuchu Jigoku Guruma",
+        "input": ":qcf::qcf:+[P], {then}, {inAirAndClose}, {press} [P]"
+      },
+      {
+        "name": "Kishin Tsui",
+        "input": "{superMeterMax}, :qcf::qcf:+[P]+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Yagyo Dama",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Yagyo Odama",
+        "input": "{superMeterMax}, :qcf::qcf:+[P]+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Tengu Stone",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Tengu Midare Stone",
+        "input": "{superMeterMax}, :qcf::qcf:+[P]+[P]"
+      }
+    ]
+  }
+}
