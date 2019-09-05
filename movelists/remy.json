@@ -1,0 +1,76 @@
+{
+  "names": {
+    "default": {
+      "roman": "Remy"
+    },
+    "japan": {
+      "roman": "Remy",
+      "original": "レミー"
+    }
+  },
+  "images": {
+    "face": "remy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Crazy-Like Waltz",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Disturbed Sleep Outline",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Naive Needle",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Light of Virtue: High",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Light of Virtue: Low",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Rising Rage Flash",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Cold Blue Kick",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Light of Justice",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Supreme Rising Rage Flash",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Blue Nocturne",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
