@@ -1,0 +1,97 @@
+{
+  "names": {
+    "default": {
+      "roman": "Q"
+    },
+    "japan": {
+      "roman": "Q",
+      "original": "キュー"
+    }
+  },
+  "images": {
+    "face": "q.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Painful Strike",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Vicious Impact",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Upper",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Advancing Punch",
+        "input": ":b:+[HP]"
+      },
+      {
+        "name": "Turning Kick",
+        "input": ":b:+[HK]"
+      },
+      {
+        "name": "Painful Sweep",
+        "input": ":db: {or} :df:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Dashing Head Attack",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Dashing Overhead Attack",
+        "input": "{charge} :b: :f:+{hold} [P]"
+      },
+      {
+        "name": "Dashing Leg Attack",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "High Speed Barrage",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Capture & Deadly Blow",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Critical Combo Attack",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Deadly Double Combination",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Total Destruction",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Total Destruction: Activate",
+        "input": ":qcf:+[P]",
+        "after": "Total Destruction"
+      },
+      {
+        "name": "Total Destruction: Danger",
+        "input": ":qcf:+[K]",
+        "after": "Total Destruction"
+      }
+    ]
+  }
+}
