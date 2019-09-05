@@ -1,0 +1,108 @@
+{
+  "names": {
+    "default": {
+      "roman": "Makoto"
+    },
+    "japan": {
+      "roman": "Makoto",
+      "original": "まこと"
+    }
+  },
+  "images": {
+    "face": "makoto.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Head Butt",
+        "input": ":n:+[LP]+[LK]"
+      },
+      {
+        "name": "Triple Threat",
+        "input": ":b: {or} :f:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Kazami",
+        "input": ":f:+[LP]"
+      },
+      {
+        "name": "Kaoruna",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Shimaki",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Yamase",
+        "input": ":f:+[HP] > [HP]"
+      },
+      {
+        "name": "Shibuki",
+        "input": ":f:+[LK]"
+      },
+      {
+        "name": "Naruto",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Kuroshio",
+        "input": ":f:+[HK] ({hold} [HK] {toCancel})"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "[LK] > [MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":f:+[MK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hayate",
+        "input": ":qcf:+[P] ({hold} [P] {toCharge}; {press} [K] {whileDelaying} {toCancel})",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Fukiage",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Oroshi",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Karakusa",
+        "input": ":hcb:+[K]"
+      },
+      {
+        "name": "Tsurugi",
+        "input": "{duringVerticalOrForwardJump}, :qcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Seichusen Godanzuki",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Abare Tosanami",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Tanden Renki",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
