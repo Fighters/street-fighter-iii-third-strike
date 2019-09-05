@@ -1,0 +1,82 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hugo"
+    },
+    "japan": {
+      "roman": "Hugo",
+      "original": "ヒューゴー"
+    }
+  },
+  "images": {
+    "face": "hugo.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Hanging Tree",
+        "input": ":n:+[LP]+[LK]"
+      },
+      {
+        "name": "Body Slam",
+        "input": ":b: {or} :f:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Drop Kick",
+        "input": ":b: {or} :f:+[HK]"
+      },
+      {
+        "name": "Body Press",
+        "input": "{inAir}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Giant Palm Bomber",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Monster Lariat",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Shootdown Backbreaker",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Ultra Throw",
+        "input": ":hcb:+[K]"
+      },
+      {
+        "name": "Moonsault Press",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Meat Squasher",
+        "input": ":360:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Gigas Breaker",
+        "input": ":360::360:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Megaton Press",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Hammer Frenzy",
+        "input": ":qcf::qcf:+[P] ({hold} [P] {toDelay})"
+      }
+    ]
+  }
+}
