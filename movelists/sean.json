@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sean"
+    },
+    "japan": {
+      "roman": "Sean",
+      "original": "ショーン"
+    }
+  },
+  "images": {
+    "face": "sean.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Sean Headbutt",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Rolling Sobat",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{close}, [MP] > [HK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{close}, [HP] > :f:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sean Tackle",
+        "input": ":hcf:+[P] ({hold} [P] {toAttack})",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Dragon Smash",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Ryubikyaku",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Tornado",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Zenten",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Hado Burst",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Shoryu Cannon",
+        "input": ":qcf::qcf:+[P] ({tapPunch} {forMoreHits})"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Hyper Tornado",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
