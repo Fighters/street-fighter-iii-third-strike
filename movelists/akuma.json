@@ -1,0 +1,144 @@
+{
+  "names": {
+    "default": {
+      "roman": "Akuma"
+    },
+    "japan": {
+      "roman": "Gouki",
+      "original": "ゴウキ"
+    }
+  },
+  "images": {
+    "face": "akuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Zugaihasatsu",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Tenmakujinkyaku",
+        "input": "{duringForwardJump}, {atJumpApex}, :d:+[MK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gohadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "Zanku Hadoken",
+        "input": "{inAir}, :qcf:+[P]"
+      },
+      {
+        "name": "Goshoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Zankukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Airborne Tatsumaki Zankukyaku",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "Hyakkishu",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Hyakki Gozan",
+        "input": "{doNothing}",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gosho",
+        "input": "[P]",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gojin",
+        "input": "[K]",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gosai",
+        "input": "[LP]+[LK]",
+        "after": "Hyakkishu",
+        "extraInfo": "{onlyOnGroundedOpponent}"
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Messatsu Gohado",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Tenma Gozanku",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Messatsu Goshoryu",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Messatsu Gorasen",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Messatsu Gosenpu",
+        "input": "{inAir}, :qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt}": [
+      {
+        "name": "Shun Goku Satsu",
+        "input": "{superMeterMax}, [LP] > [LP] > :f: > [LK] > [HP]",
+        "extraInfo": "{anySuperArt}"
+      },
+      {
+        "name": "Kongo Kokuretsu Zan",
+        "input": "{superMeterMax}, :d::d::d:+[P]+[P]",
+        "extraInfo": "{anySuperArt}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "anySuperArt": "can be done with any selected Super Art",
+      "onlyOnGroundedOpponent": "only works on grounded opponent"
+    },
+
+    "portuguese": {
+      "anySuperArt": "pode ser feito com qualquer Super Art",
+      "onlyOnGroundedOpponent": "só funciona com o oponente no chão"
+    }
+  }
+}
