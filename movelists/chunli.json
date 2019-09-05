@@ -1,0 +1,108 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chun-Li"
+    },
+    "japan": {
+      "roman": "Chun-Li",
+      "original": "チュンリー"
+    }
+  },
+  "images": {
+    "face": "chunli.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Koshuto",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Ryuseiraku",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Kakushu Rakukyaku",
+        "input": "{close}, {hold} [MK]"
+      },
+      {
+        "name": "Sorensho",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Hakkei",
+        "input": ":b:+[HP]"
+      },
+      {
+        "name": "Senjoshu",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Yokusenkyaku",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Tenshin Shukyaku",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Yosokyaku",
+        "input": "{inAir}, :d:+[MK]"
+      },
+      {
+        "name": "Suitotsuda",
+        "input": "{duringForwardJump}, :d:+[HP]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{duringForwardJump}, [HP] > [HP]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyakuretsukyaku",
+        "input": "{tapKick}",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Kikoken",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Spinning Bird Kick",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Hazanshu",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Kikosho",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Hoyokusen",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Tensei Ranka",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
