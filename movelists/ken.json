@@ -1,0 +1,92 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Knee Bash",
+        "input": ":n:+[LP]+[LK]"
+      },
+      {
+        "name": "Shoulder Throw",
+        "input": ":f:+[LP]+[LK]"
+      },
+      {
+        "name": "Hell Wheel",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Inazuma Kick I",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Inazuma Kick II",
+        "input": "{hold} [MK]"
+      },
+      {
+        "name": "Forward Step Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Thunder Kick",
+        "input": ":f:+[HK] ({hold} [HK] {toCancel})"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Shoryureppa",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Shinryuken",
+        "input": ":qcf::qcf:+[K] ({tapKick} {forMoreHits})"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Shippu Jinraikyaku",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
