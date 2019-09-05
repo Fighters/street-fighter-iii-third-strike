@@ -1,0 +1,101 @@
+{
+  "names": {
+    "default": {
+      "roman": "Elena"
+    },
+    "japan": {
+      "roman": "Elena",
+      "original": "エレナ"
+    }
+  },
+  "images": {
+    "face": "elena.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Leg Lift Throw",
+        "input": "[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Handstand Kick",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Handstand Whip",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Sliding",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Round Arch",
+        "input": ":b:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [LP] > [MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{inAir}, [MP] > [HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "[HP] > [HK]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "[MK] > :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Scratch Wheel",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Spin Scythe",
+        "input": ":qcb:+[K] ({upTo2x})",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Lynx Tail",
+        "input": ":rdp:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Rhino Horn",
+        "input": ":hcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Mallet Smash",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Spinning Beat",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Brave Dance",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Healing",
+        "input": ":qcf::qcf:+[P] ({press} [P]+[P] {toCancel})"
+      }
+    ]
+  }
+}
