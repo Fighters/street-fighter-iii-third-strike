@@ -1,0 +1,108 @@
+{
+  "names": {
+    "default": {
+      "roman": "Alex"
+    },
+    "japan": {
+      "roman": "Alex",
+      "original": "アレックス"
+    }
+  },
+  "images": {
+    "face": "alex.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Body Slam",
+        "input": "{close}, :b: {or} :f:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chop",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Lariat",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Headbutt",
+        "input": ":b:+[HP]",
+        "extraInfo": "{backTurned}"
+      },
+      {
+        "name": "Flying Cross Chop",
+        "input": "{duringVerticalOrForwardJump} :d:+[HP]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": ":d:+[LK] > :d:+[MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":d:+[LK] > :d:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Flash Chop",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Power Bomb",
+        "input": ":hcb:+[P]",
+        "extraInfo": "{backTurned}"
+      },
+      {
+        "name": "Spiral DDT",
+        "input": ":hcb:+[K]"
+      },
+      {
+        "name": "Air Knee Smash",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Air Stampede",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Slash Elbow",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Hyper Bomb",
+        "input": ":360:+[P]",
+        "extraInfo": "{backTurned}"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Boomerang Raid",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Stun Gun Headbutt",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "backTurned": "This move changes if it connects with a back-turned opponent"
+    },
+
+    "portuguese": {
+      "backTurned": "Este golpe muda caso acerte um adversário de costas"
+    }
+  }
+}
