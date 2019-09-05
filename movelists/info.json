@@ -1,0 +1,47 @@
+{
+  "buttons": {
+    "Arcade": [
+      { "image": "layout.webp" },
+      { "LP": "LP" },
+      { "MP": "MP" },
+      { "HP": "HP" },
+      { "LK": "LK" },
+      { "MK": "MK" },
+      { "HK": "HK" }
+    ],
+    "Dreamcast": [
+      { "LP": "X" },
+      { "MP": "Y" },
+      { "HP": "R" },
+      { "LK": "A" },
+      { "MK": "B" },
+      { "HK": "L" }
+    ],
+    "PlayStation 2": [
+      { "LP": "Square" },
+      { "MP": "Triangle" },
+      { "HP": "R1" },
+      { "LK": "X" },
+      { "MK": "Circle" },
+      { "HK": "R2" }
+    ],
+    "PlayStation 3": [
+      { "LP": "Square" },
+      { "MP": "Triangle" },
+      { "HP": "R1" },
+      { "LK": "X" },
+      { "MK": "Circle" },
+      { "HK": "R2" }
+    ],
+    "XBox 360": [
+      { "LP": "X" },
+      { "MP": "Y" },
+      { "HP": "RB" },
+      { "LK": "A" },
+      { "MK": "B" },
+      { "HK": "RT" }
+    ]
+  },
+  "hasUpgrades": true,
+  "upgradeName": "EX"
+}

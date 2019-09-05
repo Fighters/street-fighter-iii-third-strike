@@ -1,0 +1,440 @@
+{
+  "romans": {
+    "regions": [
+      {
+        "region": "default",
+        "roman": "Street Fighter III: Third Strike - Fight for the Future"
+      },
+      {
+        "region": "japan",
+        "roman": "Street Fighter III: Third Strike - Fight for the Future",
+        "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-"
+      }
+    ],
+    "also-known-as": ["sf3 3s", "3s", "third strike", "3rd"]
+  },
+  "platforms": [
+    {
+      "platform": "Arcade",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-",
+          "releaseDate": "05-12-1999",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "United States",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "releaseDate": "1999",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "releaseDate": "06-08-1999",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        }
+      ]
+    },
+    {
+      "platform": "Dreamcast",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "releaseDate": "10-04-2000",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "dc-us-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "releaseDate": "2000",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "dc-eu-front.webp"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-",
+          "releaseDate": "06-29-2000",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "dc-jp-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation 2",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter Anniversary Collection",
+          "releaseDate": "08-31-2004",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "ps2-us-front.webp"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter III: Third Strike - Fight for the Future",
+          "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-",
+          "releaseDate": "07-22-2004",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "ps2-jp-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "XBox",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter Anniversary Collection",
+          "releaseDate": "02-22-2005",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "xbox-us-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter Anniversary Collection",
+          "releaseDate": "10-29-2004",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "xbox-eu-front.webp"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter Anniversary Collection",
+          "releaseDate": "10-28-2004",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "xbox-jp-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation 3",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-23-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-24-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-23-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        }
+      ]
+    },
+    {
+      "platform": "XBox 360",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-23-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-24-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter III: Third Strike Online Edition",
+          "releaseDate": "08-23-2011",
+          "developer": "Iron Galaxy Studios",
+          "publisher": "Capcom"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ryu"
+        },
+        {
+          "region": "japan",
+          "roman": "Ryu",
+          "original": "リュウ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ken Masters"
+        },
+        {
+          "region": "japan",
+          "roman": "Ken Masters",
+          "original": "ケン・マスターズ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Alex"
+        },
+        {
+          "region": "japan",
+          "roman": "Alex",
+          "original": "アレックス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ibuki"
+        },
+        {
+          "region": "japan",
+          "roman": "Ibuki",
+          "original": "いぶき"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yun"
+        },
+        {
+          "region": "japan",
+          "roman": "Yun",
+          "original": "ユン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yang"
+        },
+        {
+          "region": "japan",
+          "roman": "Yang",
+          "original": "ヤン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Necro"
+        },
+        {
+          "region": "japan",
+          "roman": "Necro",
+          "original": "ネクロ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sean Matsuda"
+        },
+        {
+          "region": "japan",
+          "roman": "Sean Matsuda",
+          "original": "ショーン・マツダ/松田"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Oro"
+        },
+        {
+          "region": "japan",
+          "roman": "Oro",
+          "original": "オロ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Elena"
+        },
+        {
+          "region": "japan",
+          "roman": "Elena",
+          "original": "エレナ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dudley"
+        },
+        {
+          "region": "japan",
+          "roman": "Dudley",
+          "original": "ダッドリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Gill"
+        },
+        {
+          "region": "japan",
+          "roman": "Gill",
+          "original": "ギル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Urien"
+        },
+        {
+          "region": "japan",
+          "roman": "Urien",
+          "original": "ユリアン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Akuma"
+        },
+        {
+          "region": "japan",
+          "roman": "Gouki",
+          "original": "ゴウキ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Hugo"
+        },
+        {
+          "region": "japan",
+          "roman": "Hugo",
+          "original": "ヒューゴー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chun-Li"
+        },
+        {
+          "region": "japan",
+          "roman": "Chun-Li",
+          "original": "チュンリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Makoto"
+        },
+        {
+          "region": "japan",
+          "roman": "Makoto",
+          "original": "まこと"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Q"
+        },
+        {
+          "region": "japan",
+          "roman": "Q",
+          "original": "キュー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Remy"
+        },
+        {
+          "region": "japan",
+          "roman": "Remy",
+          "original": "レミー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Twelve"
+        },
+        {
+          "region": "japan",
+          "roman": "Twelve",
+          "original": "トゥエルヴ"
+        }
+      ]
+    }
+  ]
+}
