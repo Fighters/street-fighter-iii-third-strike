@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Twelve"
+    },
+    "japan": {
+      "roman": "Twelve",
+      "original": "トゥエルヴ"
+    }
+  },
+  "images": {
+    "face": "twelve.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "H.U.G.",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "F.L.G.",
+        "input": ":f:+[LP]+[LK]"
+      },
+      {
+        "name": "T.R.W.",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "B.M.K.",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Glide",
+        "input": "{inAir}, :b::b: {or} :f::f:"
+      },
+      {
+        "name": "Wall Cling",
+        "input": "{nearWall}, {hold} :f:",
+        "after": "Glide"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "N.D.L.",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "A.X.E.",
+        "input": ":qcb:+[P] ({airOK})",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "D.R.A.",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "X.N.D.L.",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "X.F.L.A.T.",
+        "input": "{inAir}, :qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "X.C.O.P.Y.",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "nearWall": "near wall"
+    },
+
+    "portuguese": {
+      "nearWall": "próximo à parede"
+    }
+  }
+}
