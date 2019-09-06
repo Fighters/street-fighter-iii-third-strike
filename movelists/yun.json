@@ -1,0 +1,112 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yun"
+    },
+    "japan": {
+      "roman": "Yun",
+      "original": "ユン"
+    }
+  },
+  "images": {
+    "face": "yun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hiza Geri",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Ento Shugeki",
+        "input": ":b: {or} :f:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Dakai",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [LP] > :f:+[HP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":d:+[MP] > :d:+[HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": ":d:+[HK] > [HK]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{close}, [MP] > [HP] > :b:+[HP]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{close}, [LP] > [LK] > [MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Zessho Hoho",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Tetsuzanko",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Nishokyaku",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Kobokushi",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Kobokushi (Feint)",
+        "input": ":qcb:+[P]+[P]"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Yoho",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Sorai Rengeki",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Genei Jin",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
