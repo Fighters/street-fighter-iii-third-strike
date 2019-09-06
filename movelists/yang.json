@@ -1,0 +1,114 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yang"
+    },
+    "japan": {
+      "roman": "Yang",
+      "original": "ヤン"
+    }
+  },
+  "images": {
+    "face": "yang.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hiza Geri",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Yohon Shiun",
+        "input": ":f:+[LP]+[LK]"
+      },
+      {
+        "name": "Ento Shugeki",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Koshu",
+        "input": "{close}, :f:+[HP]"
+      },
+      {
+        "name": "Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{close}, [MP] > [HP] > :b:+[HP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{close}, [LK] > [MK] > [HK]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "{duringForwardJump}, [MK] > :df:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Torozan",
+        "input": ":qcf:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "extraInfo": "{torozanEX}"
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Byakko Soshoda",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Byakko Soshoda (Feint)",
+        "input": ":qcb:+[P]+[P]"
+      },
+      {
+        "name": "Kaiho",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Raishin Mahaken",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Tenshin Senkyutai",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Seiei Enbu",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "1StepAway": "one step away from the opponent",
+      "torozanEX": "EX version {upTo5x}"
+    },
+
+    "portuguese": {
+      "1StepAway": "a um passo de distância",
+      "torozanEX": "versão EX {upTo5x}"
+    }
+  }
+}
