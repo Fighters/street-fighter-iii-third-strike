@@ -102,12 +102,10 @@
   },
   "custom_strings": {
     "english": {
-      "1StepAway": "one step away from the opponent",
       "torozanEX": "EX version {upTo5x}"
     },
 
     "portuguese": {
-      "1StepAway": "a um passo de distância",
       "torozanEX": "versão EX {upTo5x}"
     }
   }
