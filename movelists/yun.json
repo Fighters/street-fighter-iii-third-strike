@@ -63,11 +63,6 @@
         "canBeUpgraded": true
       },
       {
-        "name": "Senkyutai",
-        "input": ":qcf:+[K]",
-        "canBeUpgraded": true
-      },
-      {
         "name": "Tetsuzanko",
         "input": ":dp:+[P]",
         "canBeUpgraded": true
