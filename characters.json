@@ -1,0 +1,231 @@
+[
+	{
+		"name": "Ryu",
+		"repository": "",
+		"movelist": "ryu.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "リュウ"
+			}
+		]
+	},
+	{
+		"name": "Ken",
+		"repository": "",
+		"movelist": "ken.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ケン・マスターズ"
+			}
+		]
+	},
+	{
+		"name": "Alex",
+		"repository": "",
+		"movelist": "alex.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "アレックス"
+			}
+		]
+	},
+	{
+		"name": "Dudley",
+		"repository": "",
+		"movelist": "dudley.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ダッドリー"
+			}
+		]
+	},
+	{
+		"name": "Elena",
+		"repository": "",
+		"movelist": "elena.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "エレナ"
+			}
+		]
+	},
+	{
+		"name": "Ibuki",
+		"repository": "",
+		"movelist": "ibuki.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "いぶき"
+			}
+		]
+	},
+	{
+		"name": "Necro",
+		"also-known-as": [
+			"Illia"
+		],
+		"repository": "",
+		"movelist": "necro.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ネクロ"
+			}
+		]
+	},
+	{
+		"name": "Oro",
+		"repository": "",
+		"movelist": "oro.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "オロ"
+			}
+		]
+	},
+	{
+		"name": "Sean",
+		"repository": "",
+		"movelist": "sean.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ショーン・マツダ"
+			}
+		]
+	},
+	{
+		"name": "Yun",
+		"repository": "",
+		"movelist": "yun.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ユン"
+			}
+		]
+	},
+	{
+		"name": "Yang",
+		"repository": "",
+		"movelist": "yang.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ヤン"
+			}
+		]
+	},
+	{
+		"name": "Urien",
+		"repository": "",
+		"movelist": "urien.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ユリアン"
+			}
+		]
+	},
+	{
+		"name": "Hugo",
+		"also-known-as": [
+			"Andore"
+		],
+		"repository": "",
+		"movelist": "hugo.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ヒューゴー"
+			}
+		]
+	},
+	{
+		"name": "Akuma",
+		"also-known-as": [
+			"Gouki"
+		],
+		"repository": "",
+		"movelist": "akuma.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ゴウキ"
+			}
+		]
+	},
+	{
+		"name": "Chun-Li",
+		"repository": "",
+		"movelist": "chunli.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "チュンリー"
+			}
+		]
+	},
+	{
+		"name": "Makoto",
+		"repository": "",
+		"movelist": "makoto.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "まこと"
+			}
+		]
+	},
+	{
+		"name": "Q",
+		"repository": "",
+		"movelist": "q.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "キュー"
+			}
+		]
+	},
+	{
+		"name": "Remy",
+		"repository": "",
+		"movelist": "remy.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "レミー"
+			}
+		]
+	},
+	{
+		"name": "Twelve",
+		"repository": "",
+		"movelist": "twelve.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "トゥエルヴ"
+			}
+		]
+	},
+	{
+		"name": "Gill",
+		"repository": "",
+		"movelist": "gill.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ギル"
+			}
+		]
+	}
+]
