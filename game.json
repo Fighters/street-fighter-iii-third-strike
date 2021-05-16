@@ -1,18 +1,21 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "Street Fighter III: Third Strike - Fight for the Future"
-      },
-      {
-        "region": "japan",
-        "roman": "Street Fighter III: Third Strike - Fight for the Future",
-        "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-"
-      }
-    ],
-    "also-known-as": ["sf3 3s", "3s", "third strike", "3rd"]
-  },
+  "names": [
+    {
+      "region": "default",
+      "roman": "Street Fighter III: Third Strike - Fight for the Future"
+    },
+    {
+      "region": "japan",
+      "roman": "Street Fighter III: Third Strike - Fight for the Future",
+      "original": "ストリートファイターIII 3rd STRIKE -Fight for the Future-"
+    }
+  ],
+  "also-known-as": [
+    "sf3 3s",
+    "3s",
+    "third strike",
+    "3rd"
+  ],
   "platforms": [
     {
       "name": "Arcade",
